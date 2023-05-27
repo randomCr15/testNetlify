@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Generador de Códigos QR</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <h1>Generador de Códigos QR</h1>
+    <div id="qrContainer">
+        <input type="text" id="textInput" value="https://davidshimjs.github.io/qrcodejs/" placeholder="Texto o URL" >
+        <button onclick="generateQRCode()">Generar</button>
+    </div>
+    <div id="qrCode" ></div>
+
+    <script src="qrcode.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

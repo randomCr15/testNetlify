@@ -1,0 +1,42 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+h1 {
+    margin-top: 20px;
+    color: white;
+}
+
+#textInput {
+    margin-right: 10px;
+    width: 300px;
+    /* Ajusta el ancho del campo de entrada */
+    height: 30px;
+    /* Ajusta la altura del campo de entrada */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#qrContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#qrCode {
+    margin-top: 20px;
+}
